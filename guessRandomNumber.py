@@ -1,5 +1,6 @@
-#### guess the random number and program ends
-#### it counts the number of guess and prints them once you guess correctly
+#### Silly game I made on 9/20/2015
+### Guess the random number and program ends
+
 
 import random, time
 num = random.randint(0, 1000)
@@ -13,7 +14,6 @@ while True:
     elif user < num:
         print('Too low\n')
         counter += 1
-        print()
     elif user == num:
         print('You win!')
         time.sleep(3)
