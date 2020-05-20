@@ -18,5 +18,7 @@ while True:
         print('You win!')
         time.sleep(3)
         print("It took you " + str(counter) + " guesses to determine the random number.")
+        with open("yourScore.text","w") as f:
+            f.write("It took you " + str(counter) + " guesses to determine the random number.") 
         break
 
