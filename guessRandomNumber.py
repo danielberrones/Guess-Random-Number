@@ -26,6 +26,6 @@ while True:
         with open("yourScore.text","w") as f:
             f.write("It took you " + str(counter) + " guesses to determine the random number.")
             f.write("\nHere are your guesses: " + str(guesses))
-            f.write("The random number was " + str(num))
+            f.write("\nThe random number was " + str(num))
         break
 
